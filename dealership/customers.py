@@ -9,12 +9,13 @@ class Person(object):
         return False
       else:
         return True
-
+    
 class Customer(Person):
     pass
 
 class Employee(Person):
-    pass
+    def discount():
+      return 0.1
 
 John = Customer('Leon', 'Miew', 'leon@gmail.com')
 
