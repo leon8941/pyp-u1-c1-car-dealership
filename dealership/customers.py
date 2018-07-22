@@ -14,8 +14,6 @@ class Customer(Person):
     pass
 
 class Employee(Person):
-    def discount():
-      return 0.1
+    DISCOUNT = 0.1
 
-John = Customer('Leon', 'Miew', 'leon@gmail.com')
 
